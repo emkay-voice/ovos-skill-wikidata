@@ -24,6 +24,8 @@ from .facts import KINDS, Context, answer
 #: answers on purpose: a question this skill knows how to ask is better
 #: answered by the one fact than by an article's first lines
 CONFIDENCE = 0.9
+#: how long the picture of what an answer is about stays on the screen
+PICTURE_SECONDS = 20
 
 _PUNCTUATION = re.compile(r"[?!.,;:¿¡\"“”«»]")
 
@@ -175,7 +177,9 @@ class WikidataSkill(OVOSSkill):
         picture = self._pictures.pop(spoken, None)
         if picture:
             try:
-                self.gui.show_image(picture, caption=spoken, fill="PreserveAspectFit")
+                # long enough to look at once the answer has been said
+                self.gui.show_image(picture, caption=spoken, fill="PreserveAspectFit",
+                                    override_idle=PICTURE_SECONDS)
             except Exception as e:  # noqa: BLE001 - no screen is fine
                 self.log.debug(f"no picture shown: {e}")
 
