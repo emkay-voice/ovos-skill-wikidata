@@ -1,0 +1,3 @@
+cuántas (personas|habitantes) (viven en|hay en|tiene) {entity}
+cuál es la población de {entity}
+cuánta gente vive en {entity}

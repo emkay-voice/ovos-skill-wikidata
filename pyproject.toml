@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-wikidata"
+version = "0.1.0a1"
+description = "Short, current facts from Wikidata through common query - who leads a country, capitals, population, birthdays, where places are. No keys, works in a browser."
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "Andreas Lorensen"}]
+requires-python = ">=3.10"
+keywords = ["ovos", "openvoiceos", "skill", "voice", "assistant", "wikidata", "openstreetmap", "knowledge", "common-query", "facts", "emkay"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+]
+dependencies = [
+    "ovos-workshop>=0.0.15,<10.0.0",
+    "ovos-spec-tools",
+    "ovos-number-parser",
+    "ovos-date-parser",
+    "requests",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/emkay-voice/ovos-skill-wikidata"
+Issues = "https://github.com/emkay-voice/ovos-skill-wikidata/issues"
+Emkay = "https://github.com/emkay-voice/emkay"
+Icon = "https://raw.githubusercontent.com/emkay-voice/ovos-skill-wikidata/main/icon.png"
+
+[project.entry-points."opm.skill"]
+"ovos-skill-wikidata.emkay-voice" = "ovos_skill_wikidata:WikidataSkill"
+
+[tool.setuptools]
+packages = ["ovos_skill_wikidata"]
+
+[tool.setuptools.package-dir]
+ovos_skill_wikidata = ""
+
+[tool.setuptools.package-data]
+ovos_skill_wikidata = ["locale/**/*", "*.png"]

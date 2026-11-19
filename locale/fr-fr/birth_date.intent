@@ -1,0 +1,4 @@
+quand est né {entity}
+quand est née {entity}
+quand {entity} est-il né
+quelle est la date de naissance (de|d') {entity}

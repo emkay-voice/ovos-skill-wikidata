@@ -1,0 +1,2 @@
+qui est (le|la) [actuel|actuelle] (premier ministre|première ministre|chancelier|chancelière|maire|chef du gouvernement) (de|du|des|d') {entity}
+qui gouverne {entity}

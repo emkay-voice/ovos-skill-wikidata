@@ -1,0 +1,2 @@
+hvem er [den nuværende] (præsident|præsidenten|konge|kongen|dronning|dronningen|monark|monarken|statsoverhoved|statsoverhovedet) (i|for|af) {entity}
+hvem er {entity}s (præsident|konge|dronning|monark|statsoverhoved)

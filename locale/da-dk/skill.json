@@ -1,0 +1,22 @@
+{
+  "skill_id": "ovos-skill-wikidata.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-wikidata",
+  "package_name": "ovos-skill-wikidata",
+  "pip_spec": "ovos-skill-wikidata",
+  "license": "Apache-2.0",
+  "author": "emkay-voice",
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-wikidata/main/icon.png",
+  "name": "Wikidata",
+  "description": "Korte, aktuelle fakta fra Wikidata: hvem der leder et land, hovedstæder, indbyggertal, fødselsdage, hvor steder ligger.",
+  "examples": [
+    "hvem er statsminister i danmark",
+    "hvor ligger eiffeltårnet",
+    "hvad er hovedstaden i frankrig"
+  ],
+  "tags": [
+    "viden",
+    "fakta",
+    "wikidata",
+    "information"
+  ]
+}

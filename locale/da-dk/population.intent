@@ -1,0 +1,3 @@
+hvor mange (mennesker|indbyggere|personer) (bor der i|er der i|har) {entity}
+hvad er (befolkningstallet|indbyggertallet) (i|for) {entity}
+hvor mange bor der i {entity}

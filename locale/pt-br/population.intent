@@ -1,0 +1,2 @@
+quantas (pessoas|habitantes) (vivem em|vivem no|vivem na|há em|tem) {entity}
+qual é a população (de|do|da|dos|das) {entity}

@@ -1,0 +1,3 @@
+quem é o [atual] (primeiro-ministro|primeiro ministro|chanceler|presidente da câmara|prefeito|chefe de governo) (de|do|da|dos|das) {entity}
+quem é a [atual] (primeira-ministra|primeira ministra|chanceler|presidente da câmara|prefeita) (de|do|da|dos|das) {entity}
+quem governa {entity}

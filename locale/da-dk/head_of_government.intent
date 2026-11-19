@@ -1,0 +1,3 @@
+hvem er [den nuværende] (statsminister|statsministeren|premierminister|premierministeren|kansler|kansleren|borgmester|borgmesteren|regeringschef|regeringschefen) (i|for|af) {entity}
+hvem er {entity}s (statsminister|premierminister|kansler|borgmester|regeringschef)
+hvem leder regeringen i {entity}

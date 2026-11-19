@@ -1,0 +1,2 @@
+combien (de personnes|d'habitants) (vivent en|vivent au|vivent à|y a-t-il en|y a-t-il au|y a-t-il à|compte) {entity}
+quelle est la population (de|du|des|d') {entity}

@@ -1,0 +1,2 @@
+quem é o [atual] (presidente|rei|monarca|chefe de estado) (de|do|da|dos|das) {entity}
+quem é a [atual] (presidente|rainha|monarca) (de|do|da|dos|das) {entity}
