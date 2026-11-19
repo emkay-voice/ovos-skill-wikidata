@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ovos-skill-wikidata"
-version = "0.1.0a1"
+version = "0.1.0a2"
 description = "Short, current facts from Wikidata through common query - who leads a country, capitals, population, birthdays, where places are. No keys, works in a browser."
 readme = "README.md"
 license = {text = "Apache-2.0"}
