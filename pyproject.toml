@@ -4,11 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ovos-skill-wikidata"
-version = "0.1.0a2"
+version = "0.1.0a3"
 description = "Short, current facts from Wikidata through common query - who leads a country, capitals, population, birthdays, where places are. No keys, works in a browser."
 readme = "README.md"
 license = {text = "Apache-2.0"}
 authors = [{name = "emkay-voice"}]
+maintainers = [{name = "Andreas Lorensen"}]
 requires-python = ">=3.10"
 keywords = ["ovos", "openvoiceos", "skill", "voice", "assistant", "wikidata", "openstreetmap", "knowledge", "common-query", "facts", "emkay"]
 classifiers = [
